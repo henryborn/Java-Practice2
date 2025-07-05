@@ -83,7 +83,7 @@ public class Calculator {
     }
 
     // Helper function to check if a number is an integer
-    public static boolean isInteger(double number) {
-        return number == (int) number;
+    public static boolean isInteger(double numbre) {
+        return numbre == (int) numbre;
     }
 }
