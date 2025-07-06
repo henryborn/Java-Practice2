@@ -73,7 +73,7 @@ public class Bank {
             }
         
             for (int i = 0; i < acAcounts; i++) {
-                System.out.println("Select an account to check balance, withdrawal, or deposit into: ");
+                System.out.println("Select an account to check balance, withdrawal from, or deposit into: ");
                 for (int j = 0; j < accounts; j++) {
                     System.out.println((j + 1) + ". " + account[j].getName());
                 }
